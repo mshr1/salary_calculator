@@ -4,8 +4,17 @@
 // Принимает на вход параметры, позиции и килограммы,
 // из которых складывает все это в одну сумму и выводит на экран
 
-let input = document.getElementsByTagName("input")[0].value;
+let positionsBasic = document.querySelector('.input-position'),
+  weightBasic = document.querySelector('.input-weight'),
+  btn = document.querySelector('.btn-addition'),
+  textOut = document.querySelector('.text-output');
+
+btn.onclick = function () {
+  textOut.innerHTML = parseInt(positionsBasic.value) * 4 + parseInt(weightBasic.value) * 0.22;
+}
 
 
-console.log(input);
+
+
+
 
