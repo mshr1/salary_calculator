@@ -19,19 +19,21 @@
   <h3 class="form-title">Калькулятор заработка</h3>
 
   <form action="" class="form">
-    <select name="" id="">
-      <option value="">Сборщик</option>
-      <option value="">Контроллер</option>
+    <select name="" id="worker">
+      <option class="collector" value="collector">Сборщик</option>
+      <option class="control" value="control">Контроллер</option>
     </select>
-    <input type="checkbox" name="" id="">ОПТ
+
     <label for="">Введите количество строк</label>
     <input class="input-position" type="number"/>
     <label for="">Введите количество килограмм</label>
     <input class="input-weight" type="number"/>
+
+    <input class="nalog" type="checkbox" name="" id="">Учитывать налог 13%
     <button class="btn-addition" type="button">Рассчитать</button>
 
   </form>
-  <p class="text-output"></p>
+  <p class="text-output">Ваш заработок</p>
 </div>
 
 <script src="./js/main.js"></script>
