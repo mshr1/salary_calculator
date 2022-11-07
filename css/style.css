@@ -55,7 +55,9 @@ body {
   display: block;
 }
 
-
+.text-description {
+  font-size: 12px;
+}
 
 
 

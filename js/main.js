@@ -20,7 +20,7 @@ btn.onclick = function (event) {
   } else if (weight.value == null) {
     textOut.innerHTML = positions.value * 4;
   } else {
-    textOut.innerHTML = positions.value * 4 + weight.value * 0.22;
+    textOut.innerHTML = `Ваш заработок: ${(positions.value * 4) + (weight.value * 0.22)} руб.`;
   }
 }
 
